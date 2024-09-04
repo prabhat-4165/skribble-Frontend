@@ -1,0 +1,238 @@
+/* white board styles  */
+.white-board{
+    border: 2px solid black;
+    height: 550px;
+    width: 900px;
+    position: absolute;
+    left: 770px;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    border-radius: 8px;
+  }
+
+  canvas {
+     background: #fff;
+     border-radius: 8px;
+  }
+
+  .tool-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    margin: 0 auto;
+    }
+
+    .word{
+      display: flex;
+        text-align: center;
+        align-content: center;
+        margin-left: 500px;
+        margin-right: 0px;
+       
+    }
+    
+    .word-box{
+      background-color:blanchedalmond;
+      margin: 10px;
+      padding: 10px;
+    }
+    
+/* Canvas.css here is nothing but the styling of tools in whiteboard */
+
+.flex-container{
+  display: flex;
+    background-color: #fff;
+    border: 2px solid black;
+    height: 17vh;
+    width: 73vw;
+    position: absolute;
+    left: 2.2%;
+    top: 81.5vh;
+    border-radius: 8px;
+}
+
+.flex-tools{
+    font-size: 10px;
+    height: 16.5vh;
+    width: 15vw;
+    margin-top: 0px;
+}
+
+.flex-tools button{
+  margin: 10px;
+  padding: 10px;
+}
+
+.flex-tools p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-shapes{
+  height: 16.5vh;
+  width: auto;
+  margin-top: 0px;
+}
+
+.flex-shapes button{
+  margin: 10px;
+  padding: 10px;
+}
+
+.flex-shapes p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-color{
+  font-size: 10px;
+  align-items: center;
+  margin-top: 0px;
+  width: 40vw;
+}
+
+
+.setline input {
+  width: 16vw;
+}
+
+.tool{
+  display: flex;
+}
+
+.title p h1{
+  margin: 15px;
+  padding: 0px;
+}
+
+.color-button {
+  background-color: #260f78;
+  border: none;
+  width: 20px;
+  height: 20px;  
+  padding: 1px 1px;
+  margin: 1px 1px;
+} 
+
+.button1 {
+  background-color: #fafcfc;
+
+}
+.button2 {
+  background-color: #df2424;
+
+}
+.button3 {
+  background-color: #1e7d21;
+
+}
+.button4 {
+  background-color: #1e727d;
+
+}
+.button5 {
+  background-color:#511e7d;
+
+}
+.button6 {
+  background-color: #300e06;
+
+}
+.button7 {
+  background-color:#101212;
+
+}
+.button8 {
+  background-color: #ccb22f;
+
+}
+.button9 {
+  background-color: #1e7d51;
+
+}
+.button10 {
+  background-color: #1e247d;
+
+}
+.button11 {
+  background-color: #7d1e6f;
+
+}
+.button12 {
+  background-color: #3e1545;
+
+}
+
+
+.color-box{
+  display: flex;
+  flex-direction: column;
+}
+.size{
+  background-color: #8472c4;
+  margin: 2vh;
+  height: 12vh;
+  border-radius: 8px;
+}
+
+.size-2{
+  background-color: #8472c4;
+  margin: 2vh;
+  height: 9vh;
+  width: 5vw;
+  border-radius: 8px;
+}
+
+.size-2 #width{
+  height: 4vh;
+  width: 5vh;
+  margin-top: 15%;
+  margin-left: 18%;
+  border-radius: 7px
+}
+
+.size-2 button {
+  height: 4vh;
+  width: 5vh;
+  margin-top: 15%;
+  margin-left: 17%;
+  margin-bottom: 3%;
+}
+
+.size-2 p {
+  margin-top: 5px;
+  margin-left: 14px;
+}
+
+.undo-redo-buttons {
+  display: flex;
+  flex-direction: column;
+  height: 16.5vh;
+  width: 7vw;
+}
+
+.tools-button{
+  height: 5vh;
+  width: 4vw;
+  margin-top: 1vh;
+  margin-left: 2vh;
+}
+
+.turn{
+  color: #8472c4;
+}
+
+
+.extra-buttons{
+  display: flex;
+  position: absolute;
+  right: 10rem;
+  top: 2rem;
+}
+
+.turn{
+  color: #fff;
+}
